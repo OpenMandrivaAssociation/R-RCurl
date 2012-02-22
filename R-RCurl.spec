@@ -9,12 +9,9 @@ Group:            Sciences/Mathematics
 License:          BSD
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.91-1.tar.gz
-Requires:         R-methods R-bitops 
-Requires:         R-methods 
-Requires:         R-Rcompression R-XML 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-bitops
-BuildRequires:    R-methods 
-BuildRequires:    R-Rcompression R-XML 
+Requires:         R-methods R-bitops R-Rcompression R-XML
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-methods R-bitops R-Rcompression R-XML
 BuildRequires:    curl-devel
 
 %description
