@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.95.3
+Version:          1.95.4.1
 Release:          1
 Summary:          General network (HTTP/FTP/...) client interface for R
 Group:            Sciences/Mathematics
 License:          BSD
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/RCurl_1.95-3.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/RCurl_1.95-4.1.tar.gz
 Requires:         R-methods R-bitops R-Rcompression R-XML
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 BuildRequires:    R-methods R-bitops R-Rcompression R-XML
@@ -51,3 +51,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/examples
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
