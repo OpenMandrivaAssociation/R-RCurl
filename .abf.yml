@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   RCurl_1.95-3.tar.gz: ca9747366f225bc402635c6d87b9d20fdfa024f7
+sources:
+  RCurl_1.95-4.1.tar.gz: d9c412beec05a8863847c88a963dd1d578055409
