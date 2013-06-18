@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.95.4.1
-Release:          1
+Release:          2
 Summary:          General network (HTTP/FTP/...) client interface for R
 Group:            Sciences/Mathematics
 License:          BSD
